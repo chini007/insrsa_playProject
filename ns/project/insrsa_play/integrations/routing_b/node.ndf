@@ -62,14 +62,13 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">insrsa</value>
-    <value name="createdDate">1702594540847</value>
-    <value name="lastModifiedDate">1702594540847</value>
+    <value name="lastModifiedBy">insrsa</value>
+    <value name="lastModifiedDate">1702595170949</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">8640d229dc0f441e9e35ffa53eec1f03</value>
+      <value name="id">7a6909e5142c4056a2dcf4cef8564c01</value>
       <value name="group">default</value>
-      <value name="name">Cloud Runtime</value>
-      <value name="executionPlaneType">cloud</value>
+      <value name="name">insrsa_play</value>
+      <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">routing_b</value>
     <value name="description"></value>
@@ -92,6 +91,7 @@
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>

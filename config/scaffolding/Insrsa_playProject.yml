@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/chini007/Insrsa_playProject
   gitUsername: chini007
   gitBranch: dev
+services:
+- serviceName: project.insrsa_play.integrations:routing_b
+  packages:
+  - name: Insrsa_playProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.656
