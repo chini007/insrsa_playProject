@@ -234,7 +234,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">insrsa</value>
-    <value name="lastModifiedDate">1705937368460</value>
+    <value name="lastModifiedDate">1705937409457</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">8640d229dc0f441e9e35ffa53eec1f03</value>
       <value name="group">default</value>
@@ -283,7 +283,7 @@
       <record name="/2" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
-        <number name="ui_step_index" type="Long">2</number>
+        <number name="ui_step_index" type="Long">3</number>
         <number name="nodeIndex" type="Long">2</number>
         <array name="map" type="object" depth="1">
         </array>
