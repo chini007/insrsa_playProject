@@ -234,7 +234,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">insrsa</value>
-    <value name="lastModifiedDate">1705937219276</value>
+    <value name="lastModifiedDate">1705937288149</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">8640d229dc0f441e9e35ffa53eec1f03</value>
       <value name="group">default</value>
@@ -263,6 +263,12 @@
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">3</number>
+        <number name="nodeIndex" type="Long">1</number>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">2</number>
         <number name="nodeIndex" type="Long">1</number>
         <array name="map" type="object" depth="1">
@@ -276,8 +282,8 @@
         <array name="lookupTransformer" type="object" depth="1">
         </array>
       </record>
-      <null name="/1/0"/>
-      <null name="/1/1"/>
+      <null name="/2/0"/>
+      <null name="/2/1"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
