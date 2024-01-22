@@ -15,4 +15,8 @@ services:
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
-    version: 11.0.0.0.656
+    version: 11.0.0.0.714
+- serviceName: project.insrsa_play.integrations:DMG_map1
+  packages:
+  - name: Insrsa_playProject
+    version: "1.0"

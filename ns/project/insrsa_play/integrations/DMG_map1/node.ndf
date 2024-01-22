@@ -233,9 +233,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">insrsa</value>
-    <value name="createdDate">1705937140197</value>
-    <value name="lastModifiedDate">1705937140197</value>
+    <value name="lastModifiedBy">insrsa</value>
+    <value name="lastModifiedDate">1705937219276</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">8640d229dc0f441e9e35ffa53eec1f03</value>
       <value name="group">default</value>
@@ -258,7 +257,27 @@
           <value name="serviceName">pub.flow:debugLog</value>
           <value name="transformerSupport">false</value>
         </record>
+        <number name="ui_step_index" type="Long">1</number>
+        <number name="nodeIndex" type="Long">0</number>
       </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">2</number>
+        <number name="nodeIndex" type="Long">1</number>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+      </record>
+      <null name="/1/0"/>
+      <null name="/1/1"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
