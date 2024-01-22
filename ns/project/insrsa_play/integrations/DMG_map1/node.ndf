@@ -23,7 +23,7 @@
             <value name="field_largerEditor">false</value>
             <value name="field_password">false</value>
             <value name="field_usereditable">false</value>
-            <value name="id">763ff9d0-b93a-11ee-bbeb-476f5691fe70</value>
+            <value name="id">368ed250-b93c-11ee-bbeb-476f5691fe70</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">InputDoc</value>
@@ -41,7 +41,7 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">false</value>
-                <value name="id">763ff9d0-b93a-11ee-bbeb-476f5691fe70/763ff9d1-b93a-11ee-bbeb-476f5691fe70</value>
+                <value name="id">368ed250-b93c-11ee-bbeb-476f5691fe70/368ed251-b93c-11ee-bbeb-476f5691fe70</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">strA</value>
@@ -59,7 +59,7 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">false</value>
-                <value name="id">763ff9d0-b93a-11ee-bbeb-476f5691fe70/763ff9d2-b93a-11ee-bbeb-476f5691fe70</value>
+                <value name="id">368ed250-b93c-11ee-bbeb-476f5691fe70/368ed252-b93c-11ee-bbeb-476f5691fe70</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">strB</value>
@@ -77,7 +77,7 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">false</value>
-                <value name="id">763ff9d0-b93a-11ee-bbeb-476f5691fe70/763ff9d3-b93a-11ee-bbeb-476f5691fe70</value>
+                <value name="id">368ed250-b93c-11ee-bbeb-476f5691fe70/368ed253-b93c-11ee-bbeb-476f5691fe70</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">strC</value>
@@ -96,7 +96,7 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">false</value>
-                <value name="id">763ff9d0-b93a-11ee-bbeb-476f5691fe70/763ff9d4-b93a-11ee-bbeb-476f5691fe70</value>
+                <value name="id">368ed250-b93c-11ee-bbeb-476f5691fe70/368ed254-b93c-11ee-bbeb-476f5691fe70</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">strD</value>
@@ -131,7 +131,7 @@
             <value name="field_largerEditor">false</value>
             <value name="field_password">false</value>
             <value name="field_usereditable">false</value>
-            <value name="id">76406f00-b93a-11ee-bbeb-476f5691fe70</value>
+            <value name="id">368f4780-b93c-11ee-bbeb-476f5691fe70</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">OutputDoc</value>
@@ -149,7 +149,7 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">false</value>
-                <value name="id">76406f00-b93a-11ee-bbeb-476f5691fe70/76406f01-b93a-11ee-bbeb-476f5691fe70</value>
+                <value name="id">368f4780-b93c-11ee-bbeb-476f5691fe70/368f4781-b93c-11ee-bbeb-476f5691fe70</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">strA</value>
@@ -167,7 +167,7 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">false</value>
-                <value name="id">76406f00-b93a-11ee-bbeb-476f5691fe70/76406f02-b93a-11ee-bbeb-476f5691fe70</value>
+                <value name="id">368f4780-b93c-11ee-bbeb-476f5691fe70/368f4782-b93c-11ee-bbeb-476f5691fe70</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">strB</value>
@@ -185,7 +185,7 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">false</value>
-                <value name="id">76406f00-b93a-11ee-bbeb-476f5691fe70/76406f03-b93a-11ee-bbeb-476f5691fe70</value>
+                <value name="id">368f4780-b93c-11ee-bbeb-476f5691fe70/368f4783-b93c-11ee-bbeb-476f5691fe70</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">strC</value>
@@ -203,7 +203,7 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">false</value>
-                <value name="id">76406f00-b93a-11ee-bbeb-476f5691fe70/76406f04-b93a-11ee-bbeb-476f5691fe70</value>
+                <value name="id">368f4780-b93c-11ee-bbeb-476f5691fe70/368f4784-b93c-11ee-bbeb-476f5691fe70</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">strD</value>
@@ -234,7 +234,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">insrsa</value>
-    <value name="lastModifiedDate">1705937409457</value>
+    <value name="lastModifiedDate">1705938144749</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">8640d229dc0f441e9e35ffa53eec1f03</value>
       <value name="group">default</value>
@@ -259,6 +259,7 @@
         </record>
         <number name="ui_step_index" type="Long">1</number>
         <number name="nodeIndex" type="Long">0</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
