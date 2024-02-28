@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/chini007/Insrsa_playProject
   gitUsername: chini007
   gitBranch: dev
+- name: SupportPkg
+  gitServerName: insrsa_github
+  gitUrl: https://github.com/chini007
+  gitUsername: chini007
+  gitBranch: dev
 services:
 - serviceName: project.insrsa_play.integrations:routing_b
   packages:
