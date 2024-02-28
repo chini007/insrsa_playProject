@@ -45,14 +45,13 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">insrsa</value>
-    <value name="createdDate">1709150460041</value>
-    <value name="lastModifiedDate">1709150460041</value>
+    <value name="lastModifiedBy">insrsa</value>
+    <value name="lastModifiedDate">1709150488308</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">8640d229dc0f441e9e35ffa53eec1f03</value>
+      <value name="id">7a6909e5142c4056a2dcf4cef8564c01</value>
       <value name="group">default</value>
-      <value name="name">Cloud Runtime</value>
-      <value name="executionPlaneType">cloud</value>
+      <value name="name">insrsa_play</value>
+      <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">sampleES</value>
     <value name="description"></value>
