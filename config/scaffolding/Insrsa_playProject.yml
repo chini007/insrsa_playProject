@@ -29,3 +29,21 @@ services:
   packages:
   - name: Insrsa_playProject
     version: "1.0"
+  - name: SupportPkg
+    version: "1.0"
+- serviceName: SupportPkg.utils:supportService
+  packages:
+  - name: SupportPkg
+    version: "1.0"
+- serviceName: pub.xml:xmlStringToXMLNode
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: pub.xml:xmlNodeToDocument
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: pub.json:documentToJSONString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
