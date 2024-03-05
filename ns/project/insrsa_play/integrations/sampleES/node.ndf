@@ -9,15 +9,8 @@
       <value name="node_type">record</value>
       <value name="node_subtype">unknown</value>
       <value name="is_public">false</value>
-      <value name="displayName"></value>
-      <value name="favorite"></value>
-      <value name="tags"></value>
-      <value name="since"></value>
-      <value name="deprecated"></value>
-      <value name="is_visible"></value>
       <value name="field_type">record</value>
       <value name="field_dim">0</value>
-      <value name="wrapper_type">IData</value>
       <value name="nillable">true</value>
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
@@ -29,15 +22,8 @@
       <value name="node_type">record</value>
       <value name="node_subtype">unknown</value>
       <value name="is_public">false</value>
-      <value name="displayName"></value>
-      <value name="favorite"></value>
-      <value name="tags"></value>
-      <value name="since"></value>
-      <value name="deprecated"></value>
-      <value name="is_visible"></value>
       <value name="field_type">record</value>
       <value name="field_dim">0</value>
-      <value name="wrapper_type">IData</value>
       <value name="nillable">true</value>
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
@@ -47,7 +33,6 @@
     </record>
   </record>
   <value name="description"></value>
-  <value name="node_comment"></value>
   <value name="stateless">yes</value>
   <value name="caching">no</value>
   <value name="prefetch">no</value>
@@ -61,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">insrsa</value>
-    <value name="lastModifiedDate">1709151693469</value>
+    <value name="lastModifiedDate">1709670103537</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">7a6909e5142c4056a2dcf4cef8564c01</value>
       <value name="group">default</value>
@@ -124,6 +109,55 @@
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">3</number>
         <number name="nodeIndex" type="Long">2</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+      </record>
+      <record name="/3" javaclass="com.wm.util.Values">
+        <value name="itemType">APPS</value>
+        <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
+        <value name="name">Database</value>
+        <value name="providerName">WmJDBCAdapter</value>
+        <record name="operation" javaclass="com.wm.util.Values">
+          <value name="operationName">getAllNames</value>
+          <value name="isCustom">true</value>
+          <value name="operationType">actions</value>
+          <value name="connectionType">sagcloud</value>
+          <value name="projectName">project.insrsa_play</value>
+        </record>
+        <value name="appType">predefined</value>
+        <Boolean name="hasAccount">true</Boolean>
+        <Boolean name="allowCustomOperations">true</Boolean>
+        <value name="allowDeleteApplication">false</value>
+        <value name="allowUpdateApplication">false</value>
+        <null name="certified"/>
+        <Boolean name="deprecated">false</Boolean>
+        <value name="description">Database Application enables you to perform database operation</value>
+        <null name="icon"/>
+        <value name="packageName">WmJDBCAdapter</value>
+        <value name="type">Adapters</value>
+        <value name="version">1.0</value>
+        <record name="connection" javaclass="com.wm.util.Values">
+          <value name="connectionName">MySql_Edge</value>
+          <value name="connectionType">sagcloud</value>
+          <null name="description"/>
+        </record>
+        <value name="connectionNSName">project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:MySql_Edge</value>
+        <value name="connectionType">sagcloud</value>
+        <Boolean name="accountReferenceResolved">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="inputMap" type="object" depth="1">
+        </array>
+        <array name="outputMap" type="object" depth="1">
+        </array>
       </record>
     </record>
   </record>
@@ -138,21 +172,6 @@
     <value name="stopExecution">false</value>
     <value name="onError">true</value>
   </record>
-  <record name="circuitbreakersettings" javaclass="com.wm.util.Values">
-    <value name="enabled">false</value>
-    <value name="failureEvent">1</value>
-    <value name="timeoutPeriod">60</value>
-    <value name="failureThreshold">5</value>
-    <value name="failurePeriod">60</value>
-    <value name="openAction">1</value>
-    <value name="serviceToInvoke"></value>
-    <value name="resetPeriod">300</value>
-    <value name="cancelThreadOnTimeout">false</value>
-  </record>
-  <record name="concurrentrequestlimitsettings" javaclass="com.wm.util.Values">
-    <value name="maxConcurrentRequests">20</value>
-    <value name="concurrentRequestLimitEnabled">false</value>
-  </record>
   <array name="allowedHTTPMethods" type="value" depth="1">
     <value>TRACE</value>
     <value>HEAD</value>
@@ -163,7 +182,7 @@
     <value>PUT</value>
     <value>PATCH</value>
   </array>
-  <value name="pipeline_option">1</value>
+  <value name="pipeline_option">0</value>
   <null name="originURI"/>
   <value name="modifiable">true</value>
   <value name="is_public">false</value>
