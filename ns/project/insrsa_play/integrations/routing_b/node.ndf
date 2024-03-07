@@ -63,11 +63,11 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">insrsa</value>
-    <value name="lastModifiedDate">1702595170949</value>
+    <value name="lastModifiedDate">1709844374481</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">7a6909e5142c4056a2dcf4cef8564c01</value>
+      <value name="id">38efd79dccee4b8b858e760fc5a64746</value>
       <value name="group">default</value>
-      <value name="name">insrsa_play</value>
+      <value name="name">insrsa_domain_A</value>
       <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">routing_b</value>
