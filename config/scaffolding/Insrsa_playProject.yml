@@ -70,6 +70,12 @@ services:
     version: "1.0"
   - name: SupportPkg
     version: "1.0"
+- serviceName: project.insrsa_play.integrations:SoapConsumer
+  packages:
+  - name: Insrsa_playProject
+    version: "1.0"
+  - name: SupportPkg
+    version: "1.0"
 configurationVariables:
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.otherProperties
   : loginTimeout=60;
@@ -83,10 +89,10 @@ configurationVariables:
   : "0"
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.keyStore
   : ""
-  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.password
-  : "{AES}Y5IgMqjfvkgbg7p5VUZztw=="
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionEnabled
   : "false"
+  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.password
+  : "{AES}Y5IgMqjfvkgbg7p5VUZztw=="
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.driverType
   : MySQL_Driver
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.trustStore
