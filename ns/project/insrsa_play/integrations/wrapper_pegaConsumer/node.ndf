@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">insrsa</value>
-    <value name="lastModifiedDate">1710759835730</value>
+    <value name="lastModifiedDate">1710760667065</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">8640d229dc0f441e9e35ffa53eec1f03</value>
       <value name="group">default</value>
