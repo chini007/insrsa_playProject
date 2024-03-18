@@ -82,6 +82,24 @@ services:
     version: "1.0"
   - name: SupportPkg
     version: "1.0"
+- serviceName: project.insrsa_play.integrations:wrapper_pegaConsumer
+  packages:
+  - name: Insrsa_playProject
+    version: "1.0"
+  - name: SupportPkg
+    version: "1.0"
+- serviceName: SupportPkg.pega_consumer:consumPegaService
+  packages:
+  - name: SupportPkg
+    version: "1.0"
+- serviceName: SupportPkg.pega_consumer.pega_.connectors:SOAPDemoSoap_AddInteger
+  packages:
+  - name: SupportPkg
+    version: "1.0"
+- serviceName: pub.client:soapClient
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
 configurationVariables:
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionEnabled
   : "false"
