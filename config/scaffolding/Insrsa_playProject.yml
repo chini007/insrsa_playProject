@@ -106,6 +106,12 @@ services:
     version: "1.0"
   - name: SupportPkg
     version: "1.0"
+- serviceName: project.insrsa_play.integrations:onPremRuntimeService
+  packages:
+  - name: Insrsa_playProject
+    version: "1.0"
+  - name: SupportPkg
+    version: "1.0"
 configurationVariables:
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.otherProperties
   : loginTimeout=60;
