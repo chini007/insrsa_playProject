@@ -25,7 +25,7 @@ services:
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
-    version: 11.0.0.0.741
+    version: 11.0.0.0.804
 - serviceName: project.insrsa_play.integrations:DMG_map1
   packages:
   - name: Insrsa_playProject
@@ -100,15 +100,31 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.741
+- serviceName: project.insrsa_play.integrations:cloudRuntimeService
+  packages:
+  - name: Insrsa_playProject
+    version: "1.0"
+  - name: SupportPkg
+    version: "1.0"
 configurationVariables:
+  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.otherProperties
+  : loginTimeout=60;
+  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionManagerSettings.maximumPoolSize
+  : "10"
+  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.user
+  : sag
+  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.keyStore
+  : ""
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionEnabled
   : "false"
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.password
-  : "{AES}Y5IgMqjfvkgbg7p5VUZztw=="
+  : "{AES}aYrXC43dTWsDUHRWG5mhTA=="
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.driverType
   : MySQL_Driver
-  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.otherProperties
-  : loginTimeout=60;
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.trustStore
   : ""
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionManagerSettings.expireTimeout
@@ -117,12 +133,8 @@ configurationVariables:
   : "10"
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.dbType
   : MySQL
-  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionManagerSettings.maximumPoolSize
-  : "10"
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionManagerSettings.minimumPoolSize
   : "0"
-  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionManagerSettings.blockingTimeout
-  : "1000"
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.databaseName
   : sampleDB
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.datasourceClass
@@ -133,17 +145,11 @@ configurationVariables:
   : "0"
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.serverName
   : localdb.orb.local
-  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.user
-  : sag
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.portNumber
   : "3306"
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.networkProtocol
   : tcp
-  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionManagerSettings.heartBeatInterval
-  : "0"
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.transactionType
   : NO_TRANSACTION
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionManagerSettings.poolable
   : "false"
-  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.keyStore
-  : ""
