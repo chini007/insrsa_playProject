@@ -15,6 +15,85 @@
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
       <array name="rec_fields" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">field</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+            <value name="field_usereditable">false</value>
+            <value name="id">9b719ab0-1380-11ef-99e6-a11381d32ddc</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">BusinessAttribute</value>
+          <value name="field_type">record</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+          <array name="rec_fields" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">field</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment"></value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="field_largerEditor">false</value>
+                <value name="field_password">false</value>
+                <value name="field_usereditable">false</value>
+                <value name="id">9b719ab0-1380-11ef-99e6-a11381d32ddc/9b719ab1-1380-11ef-99e6-a11381d32ddc</value>
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">OrderID</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="field_opt">true</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">field</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment"></value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="field_largerEditor">false</value>
+                <value name="field_password">false</value>
+                <value name="field_usereditable">false</value>
+                <value name="id">9b719ab0-1380-11ef-99e6-a11381d32ddc/9b719ab2-1380-11ef-99e6-a11381d32ddc</value>
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">UUID</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="field_opt">true</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">field</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment"></value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="field_largerEditor">false</value>
+                <value name="field_password">false</value>
+                <value name="field_usereditable">false</value>
+                <value name="id">9b719ab0-1380-11ef-99e6-a11381d32ddc/9b719ab3-1380-11ef-99e6-a11381d32ddc</value>
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">Partner_Name</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="field_opt">true</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+          </array>
+          <value name="modifiable">true</value>
+        </record>
       </array>
       <value name="modifiable">true</value>
     </record>
@@ -46,7 +125,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">gitops</value>
-    <value name="lastModifiedDate">1715861683589</value>
+    <value name="lastModifiedDate">1715862882231</value>
     <value name="displayName">onPremRuntimeService</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -92,8 +171,8 @@
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <Boolean name="serviceReferenceResolved">true</Boolean>
-        <value name="nodePathForDebug">1</value>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <value name="nodePathForDebug">1</value>
       </record>
       <record name="/2" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -114,6 +193,8 @@
         <number name="lineNumberForDebug" type="Long">3</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">2</value>
       </record>
     </record>
   </record>
