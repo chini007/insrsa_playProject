@@ -11,50 +11,13 @@ packages:
   wpmServer: https://packages.softwareag.com
   wpmRegistry: softwareag
 - name: SupportPkg
+  version: "1.0"
   gitServerName: insrsa_github
   gitUrl: https://github.com/chini007
   gitUsername: chini007
   gitBranch: dev
 services:
-- serviceName: project.insrsa_play.integrations:routing_b
-  packages:
-  - name: Insrsa_playProject
-    version: "1.0"
-  - name: SupportPkg
-    version: "1.0"
-- serviceName: pub.flow:debugLog
-  packages:
-  - name: WmPublic
-    version: 11.0.0.0.804
-- serviceName: project.insrsa_play.integrations:DMG_map1
-  packages:
-  - name: Insrsa_playProject
-    version: "1.0"
-  - name: SupportPkg
-    version: "1.0"
-- serviceName: project.insrsa_play.integrations:sampleES
-  packages:
-  - name: Insrsa_playProject
-    version: "1.0"
-  - name: SupportPkg
-    version: "1.0"
-- serviceName: SupportPkg.utils:supportService
-  packages:
-  - name: SupportPkg
-    version: "1.0"
-- serviceName: pub.xml:xmlStringToXMLNode
-  packages:
-  - name: WmPublic
-    version: 11.0.0.0.741
-- serviceName: pub.xml:xmlNodeToDocument
-  packages:
-  - name: WmPublic
-    version: 11.0.0.0.741
-- serviceName: pub.json:documentToJSONString
-  packages:
-  - name: WmPublic
-    version: 11.0.0.0.741
-- serviceName: project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:MySql_Edge
+- serviceName: project.insrsa_play.integrations:e2eLog
   packages:
   - name: Insrsa_playProject
     version: "1.0"
@@ -63,66 +26,12 @@ services:
 - serviceName: pub.flow:setCustomContextID
   packages:
   - name: WmPublic
-    version: 11.0.0.0.804
-- serviceName: project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:getAllNames
-  packages:
-  - name: Insrsa_playProject
-    version: "1.0"
-  - name: SupportPkg
-    version: "1.0"
-- serviceName: project.insrsa_play.integrations:SoapConsumer
-  packages:
-  - name: Insrsa_playProject
-    version: "1.0"
-  - name: SupportPkg
-    version: "1.0"
-- serviceName: project.insrsa_play.integrations:WrapperEdge
-  packages:
-  - name: Insrsa_playProject
-    version: "1.0"
-  - name: SupportPkg
-    version: "1.0"
-- serviceName: project.insrsa_play.integrations:wrapper_pegaConsumer
-  packages:
-  - name: Insrsa_playProject
-    version: "1.0"
-  - name: SupportPkg
-    version: "1.0"
-- serviceName: SupportPkg.pega_consumer:consumPegaService
-  packages:
-  - name: SupportPkg
-    version: "1.0"
-- serviceName: SupportPkg.pega_consumer.pega_.connectors:SOAPDemoSoap_AddInteger
-  packages:
-  - name: SupportPkg
-    version: "1.0"
-- serviceName: pub.client:soapClient
-  packages:
-  - name: WmPublic
-    version: 11.0.0.0.741
-- serviceName: project.insrsa_play.integrations:cloudRuntimeService
-  packages:
-  - name: Insrsa_playProject
-    version: "1.0"
-  - name: SupportPkg
-    version: "1.0"
-- serviceName: project.insrsa_play.integrations:onPremRuntimeService
-  packages:
-  - name: Insrsa_playProject
-    version: "1.0"
-  - name: SupportPkg
-    version: "1.0"
+    version: 11.1.0.0.1
 configurationVariables:
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.otherProperties
   : loginTimeout=60;
-  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionManagerSettings.maximumPoolSize
-  : "10"
-  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionManagerSettings.blockingTimeout
-  : "1000"
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.user
   : sag
-  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionManagerSettings.heartBeatInterval
-  : "0"
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.keyStore
   : ""
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionEnabled
@@ -133,22 +42,12 @@ configurationVariables:
   : MySQL_Driver
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.trustStore
   : ""
-  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionManagerSettings.expireTimeout
-  : "1000"
-  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionManagerSettings.startupBackoffSecs
-  : "10"
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.dbType
   : MySQL
-  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionManagerSettings.minimumPoolSize
-  : "0"
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.databaseName
   : sampleDB
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.datasourceClass
   : com.mysql.cj.jdbc.MysqlDataSource
-  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionManagerSettings.poolIncrementSize
-  : "1"
-  ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionManagerSettings.startupRetryCount
-  : "0"
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.serverName
   : localdb.orb.local
   ? artConnection.Insrsa_playProject.project.insrsa_play.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySql_Edge.connectionSettings.portNumber
